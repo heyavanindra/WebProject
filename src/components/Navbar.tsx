@@ -20,7 +20,7 @@ function Navbar() {
             <li className="p-4"><Link to={'/contact'}>contact</Link></li>
             <li className="p-4"><Link to={'/socials'}>Socials</Link></li>
         </ul>
-        <div onClick={handlenav} className="block cursor-pointer md:hidden">
+        <div onClick={handlenav} className="block bg-[#121212] cursor-pointer md:hidden">
             {!nav ? <AiOutlineClose size={20}></AiOutlineClose> : <AiOutlineMenu size={20}></AiOutlineMenu> }
             
         </div  >
