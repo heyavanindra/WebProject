@@ -29,8 +29,8 @@ const Contact = () => {
             className="h-[40px] pl-4 w-full md:h-[50px] md:mr-auto  rounded-"
           />
         </div>
-      </div>
-      <div className="ml-7 mr-8">
+      </div >
+      <div className="ml-7 mr-[60px] ">
         <p className="py-3  text-[#4f6dc0] text-2xl">Email</p>
         <input
           type="text"
@@ -38,7 +38,7 @@ const Contact = () => {
           className="h-[50px] pl-4 w-full  text-black"
         />
       </div>
-      <div className="ml-7 mr-8">
+      <div className="ml-7 mr-[60px] ">
         <p className="py-3  text-[#4f6dc0] text-2xl">Message</p>
         <input
           type="text"
