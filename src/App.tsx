@@ -7,6 +7,7 @@ import Socials from "./pages/Socials"
 import Login from "./pages/Login"
 import Contact from "./pages/Contact"
 import ThankYou from "./pages/ThankYou"
+import Signin from "./pages/Signin"
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/login" element={<Login/>}></Route>
       <Route path="/thanks" element={<ThankYou/>}></Route>
+      <Route path="/signin" element={<Signin/>}></Route>
       
     </Routes>
       

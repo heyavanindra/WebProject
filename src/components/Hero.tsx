@@ -23,7 +23,7 @@ function Hero() {
           ></ReactTyped>
         </div>
         <div>
-          <button className="bg-[#4f6dc0] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">
+          <button className="bg-[#4f6dc0] w-[200px] rounded-xl font-medium my-6 mx-auto py-3 text-black hover:scale-105 duration-300">
             <Link to={'/login'}>Get Started</Link>
           </button>
         </div>
