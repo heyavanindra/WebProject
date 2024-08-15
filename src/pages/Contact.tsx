@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <div className="text-white lg:flex ">
-      <div className="w-[800px] flex flex-col ">
+    <div className=" h-screen max-w-[900px] text-white lg:flex ">
+      <div className="w-auto md:w-[800px] flex flex-col ">
         <div className="mt-[50px] pl-6">
           <h3 className="text-white-800 text-6xl">Contact</h3>
         </div>
